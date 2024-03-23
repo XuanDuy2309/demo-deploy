@@ -11,7 +11,7 @@ function App() {
       <Router>
           <div className="App">
               <Routes>
-                  <Route path="/job4-testFE"  element={<NotSignIn />}/>
+                  <Route path="/demo-deploy"  element={<NotSignIn />}/>
                   <Route path="/login"  element={<SignIn />}/>
                   <Route path="/profile"  element={<Profile />}/>
                   <Route path="/home"  element={<HomeSignIn />}/>
