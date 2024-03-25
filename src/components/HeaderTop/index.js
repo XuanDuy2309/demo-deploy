@@ -48,7 +48,7 @@ function HeaderTop({
                 <Button
                     primary
                     disabled={!isLogin}
-                    href='/demo-deploy/profile'
+                    onClick={handleGoToProfile}
                 >Profile</Button>
                 <Button
                     primary
