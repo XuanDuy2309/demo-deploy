@@ -36,7 +36,7 @@ function HeaderTop({
         }
     }
     const handleGoToProfile = ()=>{
-        navigate("demo-deploy/profile");
+        navigate("/demo-deploy/profile");
     }
     return (
         <div className="header-top">
