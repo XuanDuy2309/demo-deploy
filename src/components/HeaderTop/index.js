@@ -35,6 +35,9 @@ function HeaderTop({
             navigate("/demo-deploy/login");
         }
     }
+    const handleGoToProfile = ()=>{
+        navigate("demo-deploy/profile");
+    }
     return (
         <div className="header-top">
             <div className="logo">
@@ -45,7 +48,7 @@ function HeaderTop({
                 <Button
                     primary
                     disabled={!isLogin}
-                    href={"/demo-deploy/profile"}
+                    href='/demo-deploy/profile'
                 >Profile</Button>
                 <Button
                     primary
