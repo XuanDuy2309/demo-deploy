@@ -200,7 +200,7 @@ function Profile(props) {
         fetch(`https://agiletech-test-api.zeabur.app/auth/logout`, request)
             .then(res => res.text())
             .then(data => {
-                navigate("/");
+                navigate("/demo-deploy");
                 localStorage.removeItem("token");
             }).catch(fail=>console.log(fail));
     }
@@ -212,7 +212,7 @@ function Profile(props) {
         <div className="profile">
             <div className="sidebar">
                 <img src={images.logo} alt=""/>
-                <a href="/home">Ports</a>
+                <a href="/demo-deploy/home">Ports</a>
                 <button onClick={handleLogout}>Logout</button>
 
             </div>

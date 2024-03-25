@@ -15,7 +15,6 @@ function HomeSignIn(props) {
                         <HeaderTop
                             isLogin={true}
                             isInLoginPage={false}
-                            href={"/"}
                         />
                         <div className="header-content">
                             <div className="content-title">

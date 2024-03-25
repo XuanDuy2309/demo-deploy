@@ -12,9 +12,9 @@ function App() {
           <div className="App">
               <Routes>
                   <Route path="/demo-deploy"  element={<NotSignIn />}/>
-                  <Route path="/login"  element={<SignIn />}/>
-                  <Route path="/profile"  element={<Profile />}/>
-                  <Route path="/home"  element={<HomeSignIn />}/>
+                  <Route path="/demo-deploy/login"  element={<SignIn />}/>
+                  <Route path="/demo-deploy/profile"  element={<Profile />}/>
+                  <Route path="/demo-deploy/home"  element={<HomeSignIn />}/>
               </Routes>
           </div>
       </Router>

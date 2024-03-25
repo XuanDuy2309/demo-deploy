@@ -28,11 +28,11 @@ function HeaderTop({
             fetch(`https://agiletech-test-api.zeabur.app/auth/logout`, request)
                 .then(res => res.text())
                 .then(data => {
-                    navigate("/");
+                    navigate("/demo-deploy");
                     localStorage.removeItem("token");
                 }).catch(fail=>console.log(fail));
         }else {
-            navigate("/login");
+            navigate("/demo-deploy/login");
         }
     }
     return (
@@ -45,7 +45,7 @@ function HeaderTop({
                 <Button
                     primary
                     disabled={!isLogin}
-                    href={"/profile"}
+                    href={"/demo-deploy/profile"}
                 >Profile</Button>
                 <Button
                     primary

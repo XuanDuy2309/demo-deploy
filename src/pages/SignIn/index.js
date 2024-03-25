@@ -23,7 +23,7 @@ function SignIn(props) {
             .then(data => {
                 if (data.accessToken != null || data.accessToken !=undefined){
                     localStorage.setItem("token",JSON.stringify(data))
-                    navigate("/home")
+                    navigate("/demo-deploy/home")
                     // console.log(data);
                 }else {
                     alert("username error!")

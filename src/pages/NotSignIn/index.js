@@ -17,7 +17,7 @@ function NotSignIn() {
                     <HeaderTop
                         isLogin={false}
                         isInLoginPage={false}
-                        href={(localStorage.getItem('accessToken')!=''||localStorage.getItem('accessToken')==undefined)?"/home":"/login"}
+                        href={(localStorage.getItem('accessToken')!=''||localStorage.getItem('accessToken')==undefined)?"/demo-deploy/home":"/demo-deploy/login"}
                     />
                     <div className="header-content">
                         <div className="content-title">
